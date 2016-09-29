@@ -1,0 +1,35 @@
+html {
+  background: url(http://img06.deviantart.net/d7ff/i/2015/260/7/0/cloudy_day_background_practice_by_nekoimacha-d99vk7u.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  html body {
+    background: transparent;
+    margin-top: 50px; }
+    html body #leftBord, html body #rightBord {
+      border-style: solid;
+      border-color: black; }
+    html body h1 {
+      color: black;
+      font-family: Helvetica, sans-seriff;
+      text-align: center; }
+    html body .bb {
+      text-align: center;
+      margin-top: 100px; }
+    html body .btn-responsive {
+      white-space: normal !important;
+      word-wrap: break-word; }
+    html body .btn-xlarge {
+      padding: 18px 28px;
+      font-size: 12px;
+      line-height: normal;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px; }
+    html body .values {
+      text-align: center;
+      font-size: 50px; }
+      html body .values .temp {
+        margin-top: 50px;
+        font-size: 100px; }
