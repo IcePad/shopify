@@ -16,7 +16,7 @@ $(function () {
             //variable for temporary number
             var temp = 0;
             //function to getJSON oject from JSON file. 
-            $.getJSON(shopifySJON, function (json) {
+            $.getJSON(shopifyJSON, function (json) {
                 var shopj = json;
                //For loop to cycle through each object in the JSON file.
                 for(var i = 0; i<Object.keys(shopj.products).length; i++){
